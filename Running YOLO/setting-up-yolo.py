@@ -5,6 +5,7 @@ import cv2
 
 # creating the model
 model = YOLO('../yolo-weights/yolov8l.pt') # yolov8n is the weight
+# create a seperate folder with all the weights 
 # n = nano, l = large, m = medium
 # medium, large slower
 results = model("Images/3.png",show=True) # source of the image
