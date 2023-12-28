@@ -1,1 +1,1 @@
-# yolo-detection
+# YOLO-detection
