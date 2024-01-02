@@ -5,11 +5,11 @@ import math
 
 import cvzone
 
-# cap = cv2.VideoCapture(0) # webcam: 0 if no external webcam
-# cap.set(3,1280)
-# cap.set(4, 720)
+cap = cv2.VideoCapture(0) # webcam: 0 if no external webcam
+cap.set(3,1280)
+cap.set(4, 720)
 
-cap = cv2.VideoCapture("../Videos/bikes.mp4")
+#cap = cv2.VideoCapture("../Videos/bikes.mp4")
 
 model = YOLO('../yolo-weights/yolov8n.pt')
 
