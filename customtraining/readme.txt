@@ -7,3 +7,5 @@ valid -> valid images dataset
 test -> testing images dataset
 nc -> number of classes
 names -> list of class names
+
+After training, download best.nt
